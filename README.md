@@ -1,11 +1,13 @@
-# Image_Captioning - Creating a Neural Network architecture to automatically generate captions from images using COCO dataset
+# Image_Captioning 
 
-The CNN-RNN architecture implemented in automatic image captioning model is referenced from this [paper](https://arxiv.org/pdf/1411.4555.pdf). This architecture takes image as input to CNN which after computation generates the feature vectors. These feature vectors are then passed through an Embedding layer to decoder LSTM cells which are responsible for generating corresponding texts. They name this model as Neural Image Caption (NIC) and have also established promising performance of NIC on various datasets. 
+This project aims at creating a Neural Network architecture to automatically generate captions for images.
 
 ![](images/model.PNG)
 
 # Model Design
-Dataset used : Microsoft Common Objects in Context (MS COCO) [dataset](http://cocodataset.org/#home)
+The CNN-RNN architecture implemented in automatic image captioning model is referenced from this [paper](https://arxiv.org/pdf/1411.4555.pdf). This architecture takes image as input to CNN which after computation generates the feature vectors. These feature vectors are then passed through an Embedding layer to decoder LSTM cells which are responsible for generating corresponding texts. They name this model as Neural Image Caption (NIC) and have also established promising performance of NIC on various datasets. 
+
+Dataset used : Microsoft Common Objects in Context ([MS COCO](http://cocodataset.org/#home))
 
 ![](images/encoder-decoder.png)
 
